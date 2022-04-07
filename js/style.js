@@ -18,11 +18,11 @@ $(function ($) {
     // }
 
 
-    // window.onload = function() {
-    //     setTimeout (function () {
-    //      scrollTo(0,0);
-    //     }, 100); 
-    //    }
+    window.onload = function() {
+        setTimeout (function () {
+         scrollTo(0,0);
+        }, 100); 
+       }
 
     // 메뉴 스크롤 이벤트
     var $menu = $('#header .headerBox .menuBox li , .home .home_menu > li'),
@@ -102,7 +102,7 @@ $(function ($) {
         skils(70, '.illustrator');
         skils(75, '.html');
         skils(75, '.css');
-        skils(50, '.js');
+        skils(40, '.js');
         skils(30, '.react');
 
         if (sct >= $(".skillcontainer").offset().top || winHeight >= $(".skillcontainer").offset().top) {
@@ -122,21 +122,16 @@ $(function ($) {
                 }
             }, 45)
         }
-
-        // $('.q').on('click', function(){
-        //     $(this).next().slideToggle()
-        //     $(this).siblings('.q').next().slideUp()
-        //   })
     
         // 스크롤 애니메이션
 
         var scrollEvent = $(this).scrollTop()
         var page1Event = $('.page-1').offset().top - $(this).height()/2
         if (scrollEvent >= page1Event && scrollEvent <= $('.page-1').offset().top  ) {
-             $('.hg1,.hg2,.hg3,.hg4,.hg5,.hg6,.hg7,.hg8,.hg9,.hg10,.hg11,.scrollDown').show()
+             $('.hg01,.hg02,.hg03,.hg41,.hg42,.hg43,.hg51,.hg52,.hg53,.rotate,.rotate01,.scrollDown').show()
              
         } else {
-            $('.hg1,.hg2,.hg3,.hg4,.hg5,.hg6,.hg7,.hg8,.hg9,.hg10,.hg11,.scrollDown').hide()
+            $('.hg01,.hg02,.hg03,.hg41,.hg42,.hg43,.hg51,.hg52,.hg53,.rotate,.rotate01,.scrollDown').hide()
            
         };
         var page2Event = $('.page-2').offset().top - $(this).height()/2
@@ -216,7 +211,7 @@ $(function ($) {
           co2 = setInterval(count5Fn,50);
           function count5Fn() {
             c03++;
-            if (c03 > 40) {
+            if (c03 > 60) {
               clearInterval(co2);
             } else {
                 $(".c3").text(c03+'%').addclass('on')
@@ -225,7 +220,7 @@ $(function ($) {
           co3 = setInterval(count6Fn,100);
           function count6Fn() {
             c04++;
-            if (c04 > 50) {
+            if (c04 > 65) {
               clearInterval(co2);
             } else {
                 $(".c4").text(c04+'%').addclass('on')
@@ -234,7 +229,7 @@ $(function ($) {
           co4 = setInterval(count7Fn,70);
           function count7Fn() {
             c05++;
-            if (c05 > 30) {
+            if (c05 > 50) {
               clearInterval(co4);
             } else {
                 $(".c5").text(c05+'%').addclass('on')
