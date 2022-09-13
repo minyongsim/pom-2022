@@ -1,2 +1,2 @@
-# po-sim
-  https://minyongsim.github.io/po-sim/
+# po-sim2022
+  https://github.com/minyongsim/pom-2022.git
