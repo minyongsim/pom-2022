@@ -898,10 +898,10 @@ body {
     animation: jsscore 2s both 1.2s;
 }
 
-.skillcontainer .react .myscore.on {
+/* .skillcontainer .react .myscore.on {
     background: #F66744;
     animation: reactscore 2s both 1.5s;
-}
+} */
 
 @keyframes photoshopscore {
     0% {

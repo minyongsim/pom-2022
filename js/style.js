@@ -103,7 +103,7 @@ $(function ($) {
         skils(75, '.html');
         skils(75, '.css');
         skils(40, '.js');
-        skils(30, '.react');
+        // skils(30, '.react');
 
         if (sct >= $(".skillcontainer").offset().top || winHeight >= $(".skillcontainer").offset().top) {
             $('.skillcontainer .myscore').addClass('on')
