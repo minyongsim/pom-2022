@@ -18,11 +18,11 @@ $(function ($) {
     // }
 
 // 새로 고침하면 스크롤 탑
-    // window.onload = function() {
-    //     setTimeout (function () {
-    //      scrollTo(0,0);
-    //     }, 100); 
-    //    }
+    window.onload = function() {
+        setTimeout (function () {
+         scrollTo(0,0);
+        }, 100); 
+       }
 
     // 메뉴 스크롤 이벤트
     var $menu = $('#header .headerBox .menuBox li '),
